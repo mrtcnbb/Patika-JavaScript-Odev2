@@ -15,6 +15,7 @@ ul li {
   font-size: 18px;
   transition: 0.2s;
   list-style-type: none;
+  white-space: pre;
 
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -37,7 +38,7 @@ ul li.checked {
 }
 
 ul li.checked::before {
-  content: "";
+  content: '';
   position: absolute;
   border-color: #fff;
   border-style: solid;
@@ -59,7 +60,6 @@ ul li.checked::before {
 .close:hover {
   background-color: #f78501;
   color: white;
-
 }
 
 .header {
@@ -74,7 +74,7 @@ img {
 }
 
 .header:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
